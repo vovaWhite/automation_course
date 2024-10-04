@@ -22,7 +22,7 @@ people_records = [
   ('Ethan', 'Anderson', 36, 'Product Manager', 'Phoenix')
 ]
 people_records.insert(0,('Vova', 'Butynets', 26, 'QA Engineer', 'Lviv'))
-# Обмін елементів з індексами 1 і 5
+
 
 people_records[1], people_records[5] = people_records[5], people_records[1]
 print(people_records)
